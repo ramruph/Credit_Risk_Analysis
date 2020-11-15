@@ -4,7 +4,19 @@ Using Machine Learning to predict credit card risk
 # Overview of the analysis
 
 Using these algorithms, (Naive Random Sampling, SMOTE, SMOTEEN, RandomForest, AdaBoost), I resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
+ 
+ 
+ This is the dataset
+ ![](images/data.png)
 
+
+
+This is the unbalanced data and the balanced data after it was transformed using the different models
+
+![](images/unbalanced.png)
+
+
+![](images/balanced.png)
 
 
 # Results
@@ -14,6 +26,9 @@ After using different Random Over and Under sampling we got the following result
 - The Naive Random Oversampling resulted in an accuarcy score of 64%
     - It had a precision of 1% for high risk and 100% for low_risk
     - Recal for high risk  is 66% and 62% for low risk
+
+![](images/naiveRandom.png)
+
 
 - SMOTE had an accuarcy of 50%
     - Precision of 61% for high risk and 69% for low risk
@@ -31,6 +46,8 @@ After using different Random Over and Under sampling we got the following result
 - AdaBoost had an accuracy score of 93%
     - precision of 9% for high risk and 100% for low risk
     - recall of 92% and 94% respectivly
+
+![](images/AdaBoost.png)
 
 
 # Summary 
